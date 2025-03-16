@@ -24,4 +24,7 @@ public class MetierImpl implements IMetier {
         return res;
     }
 
+    public void setDao(IDao dao) {
+        this.dao = dao;
+    }
 }

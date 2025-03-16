@@ -6,7 +6,7 @@ import izeg.abdenacer.metier.IMetier;
 import java.io.File;
 import java.util.Scanner;
 
-public class pres2 {
+public class Pres2 {
     //FileNotFoundException, ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(new File("config.txt"));
