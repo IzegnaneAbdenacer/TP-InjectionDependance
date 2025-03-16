@@ -1,6 +1,5 @@
 package izeg.abdenacer.metier;
 
-import izeg.abdenacer.dao.DaoImp;
 import izeg.abdenacer.dao.IDao;
 
 public class MetierImpl implements IMetier {
@@ -25,6 +24,4 @@ public class MetierImpl implements IMetier {
         return res;
     }
 
-    public void setDao(DaoImp d) {
-    }
 }
