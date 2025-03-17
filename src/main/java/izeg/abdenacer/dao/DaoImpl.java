@@ -1,10 +1,10 @@
 package izeg.abdenacer.dao;
 
-public class DaoImp implements IDao {
+public class DaoImpl implements IDao {
     @Override
     public double getData() {
         System.out.println("version base de donnees");
-        double t = 34;
+        double t = 14;
         return t;
     }
 }

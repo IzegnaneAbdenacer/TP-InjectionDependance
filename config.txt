@@ -1,0 +1,2 @@
+izeg.abdenacer.dao.DaoImpl
+izeg.abdenacer.metier.MetierImpl
