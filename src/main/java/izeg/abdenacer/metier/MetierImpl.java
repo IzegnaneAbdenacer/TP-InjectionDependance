@@ -1,8 +1,12 @@
 package izeg.abdenacer.metier;
 
 import izeg.abdenacer.dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MetierImpl implements IMetier {
+    @Autowired
     private IDao dao;
 
     public MetierImpl() {
